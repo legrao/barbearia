@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Designer</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu--esquerda">
+            <a href="#">home</a>
+            <a href="#">serviços</a>
+        </nav>
+
+         <img src="img/logo.jpg" alt="">
+         
+         <nav class="cabecalho__menu--direita">
+            <a href="#">endereço</a>
+            <a href="#">contato</a>
+            
+        </nav>
+    </header>
+    <div class="conteiner">
+        <div class="direita">
+        <main class="conteudo">
+        <aside class="conteudo__sobre">
+            <h1 class="conteudo__titulo">Sobre a barbearia</h1>
+            <p class="conteudo__paragrafo">Bem-vindo à Sherlock Barber Shop - onde a tradição encontra o estilo contemporâneo em cada corte de cabelo e barba. Embarque em uma jornada única de elegância e sofisticação enquanto exploramos a história fictícia desta charmosa barbearia, onde cada visita é mais do que um serviço, é uma experiência. Imagine uma rua movimentada de uma cidade fictícia, onde se destaca a Sherlock Barber Shop, uma verdadeira joia para os amantes de barba e estilo. Com sua fachada vintage, esta barbearia é uma homenagem à tradição, com um toque de modernidade. Ao adentrar as portas da Sherlock Barber Shop, você é recebido por Sherlock, nosso mestre barbeiro. Com sua barba impecável e olhar afiado, Sherlock é mais do que um barbeiro; ele é um artista que transforma cada visita em uma experiência única. Sua destreza com a navalha é incomparável, e sua habilidade de contar histórias transforma cada corte de cabelo em uma jornada narrativa.</p>
+        </aside>
+        <aside class="conteudo__beneficios">
+            <h1 class="conteudo__titulo">Nosso difencial </h1>
+            <p class="conteudo__paragrafo">O Ambiente Acolhedor
+                Nosso ambiente é um reflexo do charme clássico e da atenção aos detalhes. Com cadeiras de barbeiro confortáveis e uma decoração nostálgica, cada elemento foi cuidadosamente escolhido para proporcionar uma experiência envolvente. O som suave de jazz clássico e a fragrância acolhedora completam a atmosfera, transportando você para uma era de elegância atemporal.</p>
+            <div class="beneficios">
+            <ul class="beneficios__lista">
+            <li>Atendimento aos clientes</li>
+            <li>Espaço diferenciado</li>
+            <li>Localização</li>
+            <li>Profissionais</li>
+            <li>Pontualidade</li>
+            <li>Limpeza</li>
+          </ul>
+          <img src="img/espaço.jpg" alt="">
+        </div>
+        </aside>
+        <aside class="equipe">
+                <h1 class="conteudo__titulo">Compromisso com a Excelência</h1>
+            <div class="conteudo__equipe">
+                <p class="conteudo__paragrafo">Na Sherlock Barber Shop, não nos contentamos com menos do que a excelência. Nossos assistentes talentosos estão comprometidos em oferecer um serviço personalizado, desde os cortes de cabelo clássicos até os mais modernos. Cada cliente é tratado com atenção e cuidado, garantindo que saiam não apenas com uma aparência renovada, mas também com uma experiência memorável.</p>
+                <img src="img/equipe.jpg" alt="">
+            </div>
+        </aside>
+        <aside class="endereco"> 
+            <h1 class="conteudo__titulo">Explore a Arte do Barbear</h1>
+            <p class="conteudo__paragrafo">Navegue pelo nosso site para descobrir mais sobre os serviços que oferecemos, conhecer a equipe dedicada da Sherlock Barber Shop e agendar sua própria jornada de estilo. Seja parte da nossa narrativa fictícia, onde a tradição se entrelaça com a modernidade, e cada visita é uma celebração do verdadeiro artesanato do barbear.
+
+                Sherlock Barber Shop - Onde seu estilo encontra sua história.</p>
+            <iframe class="endereco__mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13568.99907045749!2d-52.3405301!3d-31.763673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9511b53b30db08bd%3A0xf3743436ea83bebb!2sSherlock%20Barber!5e0!3m2!1spt-BR!2sbr!4v1699495513984!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </aside>
+    </main>
+    </div>
+    <div class="esquerda">
+        <main class="agenda">
+            <h1 class="conteudo__titulo">Marque um horário</h1>
+            <form action="processar_agendamento.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+          <label for="data">Data:</label>
+          <input type="date" id="data" name="data" required>
+          
+          <label for="hora">Hora:</label>
+          <input type="time" id="hora" name="hora" required>
+          
+          <input type="submit" value="Agendar">
+        </form>
+        <p class="conteudo__paragrafo">se prefererir, entre em nossas redes para conferir nosso trabalho.</p>
+       <div class="link">
+        <a href="https://www.instagram.com/sherlockbarbershop/"><img src="img/insta.png" alt=""></a>
+        <a href="#"><img src="img/whats.png" alt=""></a>
+        <a href="https://www.facebook.com/Shelockbarbershop"><img src="img/face.png" alt=""></a>
+    </div>
+    <div class="tabela">
+        <h2>Horários de Funcionamento</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Dias</th>
+              <th>Abertura</th>
+              <th>Fechamento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Segunda-feira</td>
+              <td>09:00</td>
+              <td>18:00</td>
+            </tr>
+            <tr>
+              <td>Terça-feira</td>
+              <td>09:00</td>
+              <td>18:00</td>
+            </tr>
+            <tr>
+              <td>Quarta-feira</td>
+              <td>09:00</td>
+              <td>18:00</td>
+            </tr>
+            <tr>
+              <td>Quinta-feira</td>
+              <td>09:00</td>
+              <td>18:00</td>
+            </tr>
+            <tr>
+              <td>Sexta-feira</td>
+              <td>09:00</td>
+              <td>20:00</td>
+            </tr>
+            <tr>
+              <td>Sábado</td>
+              <td>10:00</td>
+              <td>16:00</td>
+            </tr>
+            <tr>
+              <td>Domingo</td>
+              <td colspan="2">Fechado</td>
+            </tr>
+          </tbody>
+        </table></div>
+    </main>
+      </div>
+    </div>
+    <footer class="footer">
+        <img src="img/logobaixo.jpg" alt="">
+    </footer>
+
+</body>
+</html>
